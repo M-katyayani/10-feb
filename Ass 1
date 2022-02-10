@@ -1,0 +1,41 @@
+sno=int(input('enter sno'))
+sname=input('enter sname')
+sgroup=input('enter std group')
+sub1=int(input('enter eng marks'))
+sub2=int(input('enter hin marks'))
+sub3=int(input('enter computers marks'))
+sub4=int(input('enter ds marks'))
+sub5=int(input('enter os marks'))
+sub6=int(input('enter accounts marks'))
+if sub1>=35 and sub2>=35 and sub3>=35 and sub4>=35 and sub5>=35 and sub6>=35:
+     print('you passed your examination')
+else:
+     print('you filed .... every one fails at first try hard u will suceed too')
+
+OUTPUT                                                     
+
+enter sno12                                                        
+enter sname HARRY
+enter std group BCA
+enter eng marks 30
+enter hin marks 35
+enter computers marks 60
+enter ds marks69
+enter os marks 70
+enter accounts marks 50
+you filed .... every one fails at first try hard u will suceed too
+ 
+ 
+ OUTPUT
+ 
+ 
+enter sno19  
+enter snamekaty
+enter std groupBCA
+enter eng marks90
+enter tel marks90
+enter computers marks70
+enter ds marks70
+enter os marks68
+enter accounts marks60
+you passed your examination
