@@ -1,0 +1,17 @@
+a=int(input('enter a number'))
+if a<0:
+     print('number is negitive',a)
+else:
+    print('number is positive',a)
+
+
+OUTPUT
+
+enter a number 3
+number is positive 3
+
+
+OUTPUT 2
+
+enter a number -5
+number is negitive -5
